@@ -1,0 +1,21 @@
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="side" opened class="example-sidenav bg-dark bg-gradient"
+        [fixedInViewport]="options.value.fixed" [fixedTopGap]="options.value.top"
+        [fixedBottomGap]="options.value.bottom">
+
+        <div id="botonSideRav">
+            <!-- Aqui ira otra cosa d chill pero es para hcr el hueco -->
+        </div>
+        <div *ngFor="let sideButton of sideButtons" id="botonSide" class="div-imagen">
+            <div id="d">
+                {{sideButton.text}}
+            </div>
+            <a [routerLink]="['/' + sideButton.rooting]">
+                <img id="imgBtn" class="desvanecer" src={{sideButton.img}}>
+            </a>
+        </div>
+    </mat-sidenav>
+    <router-outlet></router-outlet>
+    <app-body-default></app-body-default>
+    <app-footer></app-footer>
+</mat-sidenav-container>

@@ -1,0 +1,52 @@
+.example-container{
+    background-image: url("../../../assets/omegaWallp.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  .example-sidenav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+    }
+  
+    #botonSideRav{
+      margin-top: 30%;
+      width: 100%;
+      height: 9%;
+    }
+    #imgBtn {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+    #botonSide{
+      width: 100%;
+      height: 9%;
+    }
+    .div-imagen {
+      display:inline-block;
+      position:relative;
+      margin-bottom: 10px;
+      
+    }
+    #d {
+      color: white;
+      position:absolute;
+      top:20%;
+      left:5%;
+      z-index:-1;
+     font-size: 40px;
+     font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; 
+    }
+    .desvanecer:hover {
+      opacity: 0.32;
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      -ms-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }

@@ -1,0 +1,31 @@
+header{
+    background: rgba(62,71,79);
+    color: white;
+   }
+   header div h2{
+       display: flex;
+       justify-content: center;
+       font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+       
+       }
+   #buttonsImg{
+       display: flex;
+       flex-direction: row;
+   }
+   #imgGOW3 {
+       margin-left: 15.5%;
+   }
+   #imgGOW4, #imgGOWRagna{
+       margin-left: 14%;
+   }
+   #foto{
+       max-width: 35%;
+       border-style: solid;
+       border-color: black;
+       margin-bottom: 15px;
+   }
+   #imgsButton{
+       margin-top: 15px;
+       display: flex;
+       justify-content: center;
+   }

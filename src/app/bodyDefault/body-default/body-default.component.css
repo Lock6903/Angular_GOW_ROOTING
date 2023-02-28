@@ -1,0 +1,17 @@
+#space{
+    background-color: rgba(222, 184, 135, 0.801);
+    margin: 2em;
+    overflow: auto;
+}
+#ftoOdinRaven{
+    width: 400px;
+    float: right;
+}
+#ftoHraesvelgr{
+    width: 400px;
+    float: left;
+    margin-right: 7px;
+}
+#firstP{
+    margin-bottom: 55px;
+}
